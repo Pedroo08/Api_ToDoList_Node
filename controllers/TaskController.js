@@ -2,13 +2,13 @@ const Task = require("../models/Task");
 
 
 exports.CreateTask = async (req, res) => {
-    const { content, status, userId, cratedAt } = req.body;
+    const { content, status, userId, createdAt } = req.body;
   
     const task = {
       content,
       status,
       userId,
-      cratedAt,
+      createdAt,
     };
   
     try {
@@ -57,13 +57,13 @@ exports.DeleteTask = async (req,res)=>{
 exports.UpdateTask = async(req,res) =>{
     const id = req.params.id;
 
-    const {content,status, userId,cratedAt} = req.body;
+    const {content,status, userId,createdAt} = req.body;
 
     const task = {
         content,
         status, 
         userId,
-        cratedAt 
+        createdAt 
 
     }
 

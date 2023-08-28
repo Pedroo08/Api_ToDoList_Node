@@ -5,7 +5,7 @@ const Task = mongoose.model('Task',{
     content: String,
     status: String,
     userId: String,
-    cratedAt: String,
+    createdAt: String,
 })
 
 module.exports = Task;

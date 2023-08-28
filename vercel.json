@@ -7,14 +7,10 @@
         }
     ],
     "routes": [
-        {
-            "src": "/task/(.*)",
-            "dest": "/index.js"
-        },
 
         {
             "src": "/(.*)",
-            "dest": "/index.js"
+            "dest": "/"
         }
     ]
 }

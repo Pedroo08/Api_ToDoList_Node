@@ -9,7 +9,7 @@
     "routes": [
         {
             "src": "(.*)",
-            "dest": "./routes/TaskRoute.js"
+            "dest": "./index.js"
         }
     ]
 }

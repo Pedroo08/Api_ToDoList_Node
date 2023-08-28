@@ -28,6 +28,8 @@ app.use('/task',TaskRoutes)
 
 app.get('/',(req,res) => {res.status(200).json( {message:"Funcionando!!!"})})
 
+module.exports = app;
+
 
 
 

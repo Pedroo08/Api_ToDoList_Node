@@ -17,7 +17,7 @@ Essa é uma aplicação Backend que diz respeito a uma lista de tarefa ineterati
 - Criar a tarefa no banco
 - Excluir a tarefa do banco
 - Atualiza a tarefa no banco
-- enviar Tarefas do usuarios
+- Enviar Tarefas do usuarios
 
 ## Rotas
  - Pegar todas tarefas(Get) -  /task
